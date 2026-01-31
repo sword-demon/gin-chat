@@ -1,0 +1,53 @@
+# ===== Go build artifacts =====
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.a
+*.o
+
+# Binaries (common names)
+main
+app
+bin/
+dist/
+
+# ===== Go tooling =====
+# Coverage & profiling
+*.coverprofile
+coverage.*
+*.prof
+*.pprof
+
+# Go workspace / module caches (usually outside repo, but safe)
+go.work
+go.work.sum
+
+# ===== Logs & runtime =====
+*.log
+logs/
+tmp/
+temp/
+
+# ===== Local config / secrets =====
+.env
+.env.*
+config.local.*
+*.local.*
+secrets.*
+*.key
+*.pem
+
+# ===== IDE / Editor =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
